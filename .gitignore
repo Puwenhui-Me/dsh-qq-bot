@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output (npm package ships these; source repo does not)
+lib/
+dist/
+
+# npm
+*.tgz
+
+# Secrets — never commit these
+.env
+.env.*
+*.local
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
