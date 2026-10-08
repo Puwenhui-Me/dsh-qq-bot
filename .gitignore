@@ -1,0 +1,4 @@
+node_modules/
+client-src/node_modules/
+lib/client.js.map
+*.tgz

@@ -1,0 +1,12 @@
+{
+  "name": "qq-bot-client-src",
+  "private": true,
+  "description": "qq-bot 浏览器半边源码与构建链：npx tsdown && node scripts/normalize-banner.mjs 产出 ../lib/client.js（宿主 clean+build 后需重跑）",
+  "type": "module",
+  "scripts": { "build": "tsdown && node scripts/normalize-banner.mjs" },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "react": "^18.3.1",
+    "tsdown": "^0.22.14"
+  }
+}
